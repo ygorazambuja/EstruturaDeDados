@@ -19,13 +19,16 @@ public class TesteArvoreBuscaBinaria {
         arvoreDeBuscaBinaria.inserir(new No(7));
         arvoreDeBuscaBinaria.inserir(new No(8));
 
-        arvoreDeBuscaBinaria.preOrdem();
-        System.out.println();
-        arvoreDeBuscaBinaria.posOrdem();
-        System.out.println();
         arvoreDeBuscaBinaria.inOrdem();
 
-
+        try {
+            arvoreDeBuscaBinaria.remover(9);
+            arvoreDeBuscaBinaria.remover(3);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println();
+        arvoreDeBuscaBinaria.inOrdem();
     }
 
 

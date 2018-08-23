@@ -1,6 +1,6 @@
 package model;
 
-public class ArvoreDeBuscaBinaria {
+public class ArvoreDeBuscaBinaria<T extends Comparable> {
 
     private No raiz;
 
@@ -62,8 +62,6 @@ public class ArvoreDeBuscaBinaria {
     }
 
     private boolean busca(No<Comparable> pai, No<Comparable> alvo) {
-        // TODO  Implementar ..
-
         if (isVazia()) return false;
         if (comparador(alvo, pai) == 0) {
             return true;
@@ -130,4 +128,48 @@ public class ArvoreDeBuscaBinaria {
     private Integer comparador(No noUm, No noDois) {
         return noUm.getData().compareTo(noDois.getData());
     }
+
+    public No remover(T valor) throws Exception {
+        return remover(this.raiz, valor);
+    }
+
+    private No remover(No no, T valor) throws Exception {
+        if (this.raiz == null) {
+            throw new Exception("Árvore vazia");
+        } else {
+            if (valor.compareTo(no.getData()) == -1) {
+                no.setFilhoEsquerdo(remover(no.getFilhoEsquerdo(), valor));
+            } else if (valor.compareTo(no.getData()) == 1) {
+                no.setFilhoDireito(remover(no.getFilhoDireito(), valor));
+            } else if (no.getFilhoEsquerdo() != null && no.getFilhoDireito() != null) {
+                /*2 filhos*/
+                no.setData(encontraMinimo(no.getFilhoDireito()).getData());
+                no.setFilhoDireito(removeMinimo(no.getFilhoDireito()));
+            } else {
+                no = (no.getFilhoEsquerdo() != null) ? no.getFilhoEsquerdo() : no.getFilhoDireito();
+            }
+            return no;
+        }
+    }
+
+    private No removeMinimo(No node) {
+        if (node == null) {
+            throw new NullPointerException("Nó Nulo");
+        } else if (node.getFilhoEsquerdo() != null) {
+            node.setFilhoEsquerdo(removeMinimo(node.getFilhoEsquerdo()));
+            return node;
+        } else {
+            return node.getFilhoDireito();
+        }
+    }
+
+    private No encontraMinimo(No node) {
+        if (node != null) {
+            while (node.getFilhoEsquerdo() != null) {
+                node = node.getFilhoEsquerdo();
+            }
+        }
+        return node;
+    }
 }
+
