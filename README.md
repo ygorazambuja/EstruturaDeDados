@@ -7,4 +7,4 @@
 - [x] InOrdem
 - [x] PosOrdem
 - [x] PreOrdem
-- [ ] Remoção
+- [x] Remoção
