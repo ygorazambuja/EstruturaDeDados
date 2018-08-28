@@ -48,11 +48,6 @@ public class ArvoreDeBuscaBinaria<T extends Comparable> {
         }
     }
 
-
-    public void remove() {
-        // TODO Implementar ...
-    }
-
     public boolean busca(No alvo) {
         if (isVazia()) {
             return false;
