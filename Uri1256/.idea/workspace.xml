@@ -1,42 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66d454df-d3c4-42ea-8906-373dc728b66d" name="Default Changelist" comment="" />
+    <list default="true" id="f40ad730-b6b3-4efd-a8e1-e36f9f9742c6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="EstruturaDeDados" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectId" id="1Ol5Yi4gPd5s2XnVA4SS7dMIw6q" />
+  <component name="ProjectId" id="1Ol36Eyc6oqV79oTVUEqWJYLj3D" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ygor Azambuja\IdeaProjects\EstruturaDeDados" />
+      <recent name="C:\Users\Ygor Azambuja\IdeaProjects\Uri1256\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -51,37 +34,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.Main" />
-      <module name="EstruturaDeDados" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="66d454df-d3c4-42ea-8906-373dc728b66d" name="Default Changelist" comment="" />
-      <created>1564539391403</created>
+      <changelist id="f40ad730-b6b3-4efd-a8e1-e36f9f9742c6" name="Default Changelist" comment="" />
+      <created>1564538178522</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564539391403</updated>
-      <workItem from="1564539399371" duration="3206000" />
-      <workItem from="1564547559761" duration="2158000" />
-      <workItem from="1564572500448" duration="278000" />
-      <workItem from="1564572805865" duration="5506000" />
-      <workItem from="1564580372564" duration="6899000" />
-      <workItem from="1564594068825" duration="874000" />
-      <workItem from="1564603137045" duration="13382000" />
+      <updated>1564538178522</updated>
+      <workItem from="1564538180013" duration="204000" />
+      <workItem from="1564538472806" duration="919000" />
     </task>
     <servers />
   </component>
